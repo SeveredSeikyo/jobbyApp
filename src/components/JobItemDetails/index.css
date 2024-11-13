@@ -1,0 +1,133 @@
+.job-item {
+  background-color: #272727;
+  padding: 20px;
+  margin: 20px 40px;
+  border-radius: 20px;
+  color: #ffffff;
+}
+
+.job-item h1 {
+  font-size: 20px;
+}
+
+.company-details-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.company-details-container div h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.company-details-container div p {
+  font-size: 20px;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.rating-container p {
+  font: 50px;
+}
+
+.company-details-container div img {
+  height: 75px;
+  margin: 0;
+}
+
+.innerlocation-container {
+  display: flex;
+  gap: 30px;
+}
+
+.company-icon {
+  font-size: 25px;
+}
+
+.innerlocation-container div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+
+.company-location-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-item-container {
+  background-color: #000000;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.description-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description-container div {
+  display: flex;
+  align-items: center;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+}
+
+.skills-container li div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.skills-container li div img {
+  height: 60px;
+}
+
+.life-at-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.life-at-container p {
+  margin: 0;
+  padding-right: 20px;
+  text-align: left;
+}
+
+.life-at-container img {
+  border-radius: 5px;
+}
+
+.similar-jobs-container h1 {
+  color: #ffffff;
+  padding: 0px 40px;
+}
+
+.similar-jobs-container ul {
+  display: flex;
+}
+
+.retry-button {
+  background-color: #6366f1;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  padding: 5px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
